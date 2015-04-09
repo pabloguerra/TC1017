@@ -23,6 +23,6 @@ int main()
   double precision; //variables sobre se guarda la precision
   cout << "precision que desea: " << endl; //se pregunta la precision
   cin >> precision; //se guarda el numero de precision
-  cout << setprecision(precision) << calculate_e(500) << endl; // se introduce el numero de precision en setprecision() y se imprime el resutado
+  cout << setprecision(precision+1) << calculate_e(500) << endl; // se introduce el numero de precision en setprecision() y se imprime el resutado
   return 0;
 }
