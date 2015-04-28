@@ -32,7 +32,14 @@ void readNumbersfromfile (int lista [N])
   {
     Lista_promedio[i]= promedio - lista [i];
   }
+  contador = 0;
+  do
+  {
+    contador++;
 
+  }while (lista.length());
+
+  cout << "La lista tiene" << contador << "elementos" << endl;
   resultado = 0;
   for (int i=0; i<N; i++)
   {
@@ -98,4 +105,4 @@ int main ()
 
 return 0;
 }
-// corregir BANANA 
+//corregir BANANA
